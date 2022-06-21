@@ -1,1 +1,42 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    let a = parseInt(prompt('enter your first number'));
+    let b = prompt('enter your operator like +,-,*,/');
+    let c = parseInt(prompt('enter your second number'));
+switch (b) {
+ case ('+'):
+ b=a+c;
+ alert('your answer is : ' + b);
+ break;
+
+ case ('-'):
+ b=a-c;
+ alert('your answer is : '+b);
+ break;
+
+ case ('*'):
+ b=a*c;
+ alert('your answer is : '+b);
+ break;   
+
+ case ('/'):
+ b=a/c;
+ alert('your answer is  '+ b);
+ break;
+
+ default:
+ alert('you enter incorrect symbol');
+}
+</script>
+<body>
+    <h1>JavaScript Calculator!</h1>
+</body>
+</html>
